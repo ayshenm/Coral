@@ -1,0 +1,162 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container
+{
+    width: 100%;
+    height: 100vh;  
+    background-color: #f1f1f1; 
+}
+
+/*logo menu hisse*/
+
+.header-back{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;   
+}
+.header
+{
+    padding: 2rem 12rem;
+    width: 70%;
+    height: 10vh;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    border-bottom: 1px solid #999;
+    
+}
+
+ h1
+{
+    font-family: 'Oleo Script', cursive;
+    font-weight: 400;
+    font-size: 3rem;
+    margin-right:5rem;
+    letter-spacing: 2px;
+    color: #999;
+}
+.header i
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 7rem;
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+/*logo menu hisse*/
+
+/*alt menu*/
+.menu
+{
+    
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+      
+}
+.menu-section{
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.menu-section ul
+{
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+}
+.menu-section li
+{
+    list-style: none;
+    
+}
+
+.menu-section a{
+    text-decoration: none;
+    margin: 1rem;
+    color: #999;
+}
+
+/*alt menu*/
+
+/*section one*/
+.section-one
+{
+    width: 100%;
+    height: 70vh;
+    background-color:#fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:url("/assets/img/flower-pattern.png");
+    background-size: contain;   
+}
+.section-body
+{
+    width: 60%;
+    height: 60vh;
+    display: flex;
+}
+
+.section-text
+{
+    width: 50%;
+    height: 40vh;
+    font-family: 'Poppins', sans-serif;
+    padding: 2rem 1rem;
+}
+
+.section-text h2
+{
+    
+    font-size: 4rem;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+
+.section-text p
+{
+    padding: 1rem;
+    line-height: 3;
+}
+button
+{
+    padding: .8rem 1rem;
+    margin-left: 1rem;
+    background-color: #1E2832;
+    border: none;
+    color: #fff;
+}
+/*section one*/
+
+/*menu-two*/
+.menu-two
+{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(147, 33, 33);
+
+}
+.menu-section-two
+{
+    width: 90%;
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
